@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  width: 375px;
+  height: 100%;
+  border-radius: 25px;
+  border: 2px solid grey;
+  background: black;
+  -webkit-box-shadow: 10px 10px 10px grey;
+          box-shadow: 10px 10px 10px grey;
+}
+
+.bton {
+  width: 60px;
+  height: 30px;
+  margin: 5px;
+  background: grey;
+  border-radius: 15px;
+  border: 2px solid white;
+}
+
+.bton .bn {
+  width: 28px;
+  height: 30px;
+  margin-top: -2px;
+  background: white;
+  border-radius: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container {
+  width: 350px;
+  height: 100%;
+  background: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .screen {
+  height: 15%;
+  width: calc(100% - 10px);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+
+.container .watch {
+  height: 15%;
+  width: calc(100% - 10px);
+  background: none;
+  position: absolute;
+  top: 150px;
+  font-size: 100px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container .btns {
+  height: 60%;
+  position: absolute;
+  top: 40%;
+  width: calc(100% - 10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 5px;
+}
+
+.container .btns button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 10px 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.container .btns button.double {
+  width: 150px;
+  border-radius: 35px;
+}
+
+.container .btns button.num {
+  background: #383838;
+  color: white;
+}
+
+.container .btns button.btn {
+  background: #e78708;
+  color: white;
+}
+
+.container .btns button.opt {
+  background: #c0b7b7;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
